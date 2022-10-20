@@ -346,7 +346,7 @@ function initLibrary()
         utility.create("TextLabel", {
             ZIndex = 3,
             Size = UDim2.new(0, 0, 1, 0),
-            BackgroundTransparency = 0.25,
+            BackgroundTransparency = 1,
             Position = UDim2.new(0, 8, 0, 0),
             FontSize = Enum.FontSize.Size14,
             TextSize = 14,
@@ -369,7 +369,7 @@ function initLibrary()
             ZIndex = 2,
             Size = UDim2.new(1, -8, 1, -64),
             Background
-            parency = 0.25,
+            parency = 1,
             Position = UDim2.new(0, 4, 0, 58),
             BackgroundColor3 = Color3.fromRGB(255, 255, 255),
             Parent = main
